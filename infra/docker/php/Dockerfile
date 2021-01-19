@@ -1,6 +1,6 @@
 FROM node:14-buster as node
 FROM php:7.4-apache-buster
-LABEL maintainer="ucan-lab <yes@u-can.pro>"
+LABEL maintainer="ryo kumagai <ryo@domo.mp>"
 SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 
 # timezone environment
