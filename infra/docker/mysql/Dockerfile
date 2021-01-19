@@ -1,6 +1,6 @@
 FROM mysql:8.0
-LABEL maintainer="ucan-lab <yes@u-can.pro>"
+LABEL maintainer="ryo kumagai <ryo@domo.mp>"
 
-ENV TZ=UTC
+ENV TZ=Asia/Tokyo
 
 COPY ./infra/docker/mysql/my.cnf /etc/my.cnf
